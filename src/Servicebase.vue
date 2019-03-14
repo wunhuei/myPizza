@@ -9,16 +9,18 @@
     </div>
     <div class="container">
       <div class="service-nav">
-        <a href="#">number1</a>
-        <a href="#">number2</a>
-        <a href="#">number3</a>
-        <a href="#">number4</a>
+        <a href="#" @click="linkMenu" class="number0">number</a>
+        <a href="#" @click="linkMenu" class="number1">number</a>
+        <a href="#" @click="linkMenu" class="number2">number</a>
+        <a href="#" @click="linkMenu" class="number3">number</a>
       </div>
       <div class="service-section">
-        <div class="service-list" v-for="(serviceitem,index) in service" :value="index" :key="serviceitem.storeNamestoreName">
+        <div class="service-list" v-for="(serviceitem,index) in service" :value="index" :key="serviceitem.storeNamestoreName" :id="'number'+index">
           <div class="service-text">
             <h3>{{serviceitem.storeName}}</h3>
-            <span class="fa fa-camera-retro fa-lg"></span>
+            <font-awesome-icon :icon="['fab', 'facebook']"/>
+            <font-awesome-icon :icon="['fab', 'instagram']"/>
+            <font-awesome-icon :icon="['fab', 'line']"/>
             <ul>
               <li><span>time</span>{{serviceitem.time}}</li>
               <li><span>add</span>{{serviceitem.add}}</li>
@@ -32,20 +34,7 @@
   </div>
 </template>
 
-<script>
-  $(function(){
-    // 點擊滑動
-    $('.service-nav>a').click(function(e){
-      e.preventDefault();
-      let nav_choise = $(this).text();
-      $('html').animate(
-        {
-          scrollTop:$('.'+nav_choise).offset().top -120
-        }, 500
-      );
-    });
-  })
-</script>
+
 
 <script>
 export default {
@@ -60,6 +49,19 @@ export default {
     .then(res=>res.json())
     .then(service=>this.service=service);
   },
+  methods:{
+    linkMenu: function(e){
+        e.preventDefault();
+        let nav_choise = $(e.target).attr('class');
+        console.log(nav_choise);
+        $('html').animate(
+          {
+            scrollTop:$('#'+nav_choise).offset().top-120
+          }, 500
+        );
+      
+    }
+  }
 }
 </script>
 
