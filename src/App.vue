@@ -25,8 +25,8 @@ export default {
 }
 </script>
 
-
 <style>
+  @import './assets/css/font.css';
   *{
     box-sizing: border-box;
     padding:0;

@@ -40,6 +40,8 @@ $(function(){
 </script>
 <style>
   #header{
+    font-family: 'pacifico';
+    font-weight: inherit;
     text-align: center;
     position: fixed;
     top: 22px;
