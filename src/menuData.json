@@ -7,7 +7,8 @@
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":2,
@@ -17,7 +18,8 @@
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":3,
@@ -27,7 +29,8 @@
     "Ingredients": "magna/blandit/blandit/arcu",
     "subIngredients": "magna/blandit/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":4,
@@ -37,7 +40,8 @@
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":5,
@@ -47,7 +51,8 @@
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":6,
@@ -57,7 +62,8 @@
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":7,
@@ -67,7 +73,8 @@
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 110
+    "money": 110,
+    "num":0
   },
   {
     "id":8,
@@ -77,7 +84,8 @@
     "Ingredients": "magna/blandit",
     "subIngredients": "magna/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":9,
@@ -87,7 +95,8 @@
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":10,
@@ -97,7 +106,8 @@
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 120
+    "money": 120,
+    "num":0
   },
   {
     "id":11,
@@ -107,7 +117,8 @@
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":12,
@@ -117,7 +128,8 @@
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":13,
@@ -127,7 +139,8 @@
     "Ingredients": "blandit/arcu",
     "subIngredients": "blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 110
+    "money": 110,
+    "num":0
   },
   {
     "id":14,
@@ -137,7 +150,8 @@
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 110
+    "money": 110,
+    "num":0
   },
   {
     "id":15,
@@ -147,7 +161,8 @@
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":16,
@@ -157,7 +172,8 @@
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 120
+    "money": 120,
+    "num":0
   },
   {
     "id":17,
@@ -167,7 +183,8 @@
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 150
+    "money": 150,
+    "num":0
   },
   {
     "id":18,
@@ -177,7 +194,8 @@
     "Ingredients": "magna/blandit/blandit/blandit/arcu",
     "subIngredients": "magna/blandit/blandit/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 130
+    "money": 130,
+    "num":0
   },
   {
     "id":19,
@@ -187,7 +205,8 @@
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   },
   {
     "id":20,
@@ -197,6 +216,7 @@
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100
+    "money": 100,
+    "num":0
   }
 ]

@@ -21,7 +21,12 @@
             <img :src="menu.img" :alt="menu.name">
             <h3>{{menu.name}}</h3>
             <p>${{menu.money}}</p>
-            <button>delete</button>
+            <div class="quantity">
+              <button @click="joinmenu(index)">+</button>
+              <span>{{menu.count}}</span>
+              <button @click="cutmenu(index)" :disabled="menu.count===1">-</button>
+            </div>
+            <button @click.prevent="removeMenu(menu)">delete</button>
           </li>
         </ul>
       </div>
@@ -36,7 +41,7 @@
 </template>
 
 <script>
-  import { mapState, mapGetters } from 'vuex';
+  import { mapState, mapGetters, mapMutations } from 'vuex';
   export default {
     computed: {
       ...mapState(['cart']),
@@ -44,6 +49,9 @@
         menuItemNum: 'menuInCart',
         price: 'priceInCart',
       }),
+    },
+    methods: {
+      ...mapMutations(['removeMenu','joinmenu','removeMenu']),
     },
   };
 </script>
@@ -100,13 +108,17 @@
   }
   .order-menu ul li h3{
     display: inline-block;
-    width: 50%;
+    width: 30%;
     font-size: 20px;
     padding-left: 10px;
   }
   .order-menu ul li p{
     display: inline-block;
     width: 17%;
+  }
+  .order-menu .quantity{
+    width: 13%;
+    display: inline-block;
   }
   .order-menu ul li button{
     background: #c0c0c0;

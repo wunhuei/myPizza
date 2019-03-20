@@ -14,9 +14,9 @@ export default {
   computed: {
    ...mapGetters(['isMenuIncart']),
    liClass(){
-     return{
-       choise: this.isMenuIncart(this.menu),
-     };
+    return{
+      choise: this.isMenuIncart(this.menu),
+    };
    },
   },
   methods:{

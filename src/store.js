@@ -24,8 +24,9 @@ const store = new Vuex.Store({
         return state.cart.findIndex(({id})=>{
           return id === menu.id
         }) !== -1;
-      };
+      }; 
     },
+    
   },
   mutations:{
     setmenulist(state, menulist){
@@ -33,6 +34,9 @@ const store = new Vuex.Store({
     },
     picMenu(state, menu){
       state.cart.push(menu);
+    },
+    removeMenu(state, menu){
+      state.cart.splice(menu, 1);
     },
   },
   actions:{
