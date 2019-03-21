@@ -117,7 +117,7 @@ export default {
   .menu-list ul li.choise{
     opacity: 0.5;
     border: 1px solid #db5e19;
-    /* pointer-events: none; */
+    pointer-events: none;
   }
   .menu-list ul li:nth-child(4n){
     margin-right:0px;

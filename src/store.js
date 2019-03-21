@@ -9,6 +9,9 @@ const store = new Vuex.Store({
   state:{
     menus: [],
     cart: [],
+    name: '',
+    phone: '',
+    message: '',
   },
   getters:{
     menuInCart(state){
@@ -26,7 +29,6 @@ const store = new Vuex.Store({
         }) !== -1;
       }; 
     },
-    
   },
   mutations:{
     setmenulist(state, menulist){
@@ -38,6 +40,15 @@ const store = new Vuex.Store({
     removeMenu(state, menu){
       state.cart.splice(menu, 1);
     },
+    updateName (state, name) {
+      state.name = name;
+    },
+    updatePhone (state, phone) {
+      state.phone = phone;
+    },
+    updateMessage (state, message) {
+      state.message = message;
+    }
   },
   actions:{
     fetchMenu({commit}){

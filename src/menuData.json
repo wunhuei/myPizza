@@ -8,7 +8,7 @@
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":2,
@@ -19,7 +19,7 @@
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":3,
@@ -30,7 +30,7 @@
     "subIngredients": "magna/blandit/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":4,
@@ -41,7 +41,7 @@
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":5,
@@ -52,7 +52,7 @@
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":6,
@@ -63,7 +63,7 @@
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":7,
@@ -74,7 +74,7 @@
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 110,
-    "num":0
+    "num": 1
   },
   {
     "id":8,
@@ -85,7 +85,7 @@
     "subIngredients": "magna/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":9,
@@ -96,7 +96,7 @@
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":10,
@@ -107,7 +107,7 @@
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 120,
-    "num":0
+    "num": 1
   },
   {
     "id":11,
@@ -118,7 +118,7 @@
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":12,
@@ -129,7 +129,7 @@
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":13,
@@ -140,7 +140,7 @@
     "subIngredients": "blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 110,
-    "num":0
+    "num": 1
   },
   {
     "id":14,
@@ -151,7 +151,7 @@
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 110,
-    "num":0
+    "num": 1
   },
   {
     "id":15,
@@ -162,7 +162,7 @@
     "subIngredients": "bland/magna/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
+    "num": 1
   },
   {
     "id":16,
@@ -173,7 +173,7 @@
     "subIngredients": "velit/blandit/magna",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 120,
-    "num":0
+    "num": 1
   },
   {
     "id":17,
@@ -184,7 +184,7 @@
     "subIngredients": "arcu/blandit/velit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 150,
-    "num":0
+    "num": 1
   },
   {
     "id":18,
@@ -195,7 +195,7 @@
     "subIngredients": "magna/blandit/blandit/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 130,
-    "num":0
+    "num": 1
   },
   {
     "id":19,
@@ -206,17 +206,6 @@
     "subIngredients": "bland/velit/arcu/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100,
-    "num":0
-  },
-  {
-    "id":20,
-    "productCategory": "number1",
-    "name": "nisl ullamcorper",
-    "subname": "et blandit at metus",
-    "Ingredients": "bland/magna/blandit/arcu",
-    "subIngredients": "bland/magna/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100,
-    "num":0
+    "num": 1
   }
 ]

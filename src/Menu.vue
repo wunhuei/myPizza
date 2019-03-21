@@ -9,19 +9,19 @@
     </div>
     <div class="container">
       <MenuList/>
-      <formcheck/>
+      <MenuForm/>
     </div>
   </div>
 </template>
 
 <script>
 import MenuList from './MenuList.vue';
-import formcheck from './formcheck.vue';
+import MenuForm from './MenuForm.vue';
 
 export default {
   components:{
     MenuList,
-    formcheck,
+    MenuForm,
   }
 }
 </script>

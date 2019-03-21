@@ -4,15 +4,15 @@
       <div class="data-text">
         <div class="input-item">
           <label for="name">name</label>
-          <input id="name" name="name">
+          <input id="name" name="name" v-model="name">
         </div>
         <div class="input-item">
           <label for="phone">phone</label>
-          <input id="phone" name="phone">
+          <input id="phone" name="phone" v-model="phone">
         </div>
         <div class="input-item">
           <label for="note">instruction manual</label>
-          <textarea id="note" name="note"></textarea>
+          <textarea id="note" name="note" v-model="message"></textarea>
         </div>
       </div>
       <div class="order-menu">
@@ -21,11 +21,6 @@
             <img :src="menu.img" :alt="menu.name">
             <h3>{{menu.name}}</h3>
             <p>${{menu.money}}</p>
-            <div class="quantity">
-              <button @click="joinmenu(index)">+</button>
-              <span>{{menu.count}}</span>
-              <button @click="cutmenu(index)" :disabled="menu.count===1">-</button>
-            </div>
             <button @click.prevent="removeMenu(menu)">delete</button>
           </li>
         </ul>
@@ -37,13 +32,42 @@
       </div>
       <button type="submit">submit</button>
     </form>
+    <MenuShop/>
   </div>
 </template>
 
 <script>
+  import MenuShop from './MenuShop.vue';
   import { mapState, mapGetters, mapMutations } from 'vuex';
   export default {
+    components:{
+      MenuShop,
+    },
     computed: {
+      name:{
+        get(){
+          return this.$store.state.name;
+        },
+        set(value){
+          this.$store.commit('updateName', value)
+        },
+      },
+      phone:{
+        get(){
+          return this.$store.state.phone;
+        },
+        set(value){
+          this.$store.commit('updatePhone', value)
+        },
+      },
+      message:{
+        get(){
+          return this.$store.state.message;
+        },
+        set(value){
+          this.$store.commit('updateMessage', value)
+        },
+      },
       ...mapState(['cart']),
       ...mapGetters({
         menuItemNum: 'menuInCart',
@@ -51,7 +75,7 @@
       }),
     },
     methods: {
-      ...mapMutations(['removeMenu','joinmenu','removeMenu']),
+      ...mapMutations(['removeMenu']),
     },
   };
 </script>
