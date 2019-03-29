@@ -92,6 +92,7 @@
         });
         $('.order input[type="button"]').click(function(e){
           alert('Order is complete, please be patient and wait for a response');
+          
         });
       });
     },
