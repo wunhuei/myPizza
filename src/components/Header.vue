@@ -3,12 +3,12 @@
     <div class="visible-xs">
       <button><font-awesome-icon icon="bars"/></button>
       <button><font-awesome-icon icon="times"/></button>
-      <router-link to="/"><img src="./assets/images/logo.svg" alt="logo"></router-link>
+      <router-link to="/"><img src="./../assets/images/logo.svg" alt="logo"></router-link>
     </div>
     <div class="nav">
       <router-link to="/about">About</router-link>
       <router-link to="/menu">Menu</router-link>
-      <router-link to="/"><img src="./assets/images/logo.svg" alt="logo"></router-link>
+      <router-link to="/"><img src="./../assets/images/logo.svg" alt="logo"></router-link>
       <router-link to="/news">News</router-link>
       <router-link to="/servicebase">Servicebase</router-link>
     </div>
@@ -17,30 +17,30 @@
 
 <script>
 export default {
-
+  mounted(){
+    $(function(){
+      $(window).scroll(function(e){
+        let scrollTop = $(window).scrollTop();
+        if( scrollTop > 1 ){
+          $('#header img').addClass('small');
+        }else{
+          $('#header img').removeClass('small');
+        }
+      });
+      $('#header button').click(function(){
+        $('#header .nav').toggleClass('open');
+        $('#header .visible-xs').toggleClass('open');
+      });
+      $('.nav a').click(function(e){
+        $('#header .nav').removeClass('open');
+        $('#header .visible-xs').removeClass('open');
+      });
+    });
+  }
 }
-</script>
-<script>
-$(function(){
-  $(window).scroll(function(e){
-    let scrollTop = $(window).scrollTop();
-    if( scrollTop > 1 ){
-      $('#header img').addClass('small');
-    }else{
-      $('#header img').removeClass('small');
-    }
-  });
-  $('#header button').click(function(){
-    $('#header .nav').toggleClass('open');
-  });
-  $('.nav a').click(function(e){
-    $('#header .nav').removeClass('open');
-  });
-});
 </script>
 <style>
   #header{
-    font-family: 'pacifico';
     font-weight: inherit;
     text-align: center;
     position: fixed;
@@ -54,8 +54,9 @@ $(function(){
     transform: translateX(-50%);
   }
   #header a{
-    font-size: 17px;
+    font-size: 21px;
     padding: 10px 20px;
+    font-family: 'pacifico';
   }
   #header img{
     width: 120px;
@@ -113,6 +114,20 @@ $(function(){
       color: #3a78cc;
       z-index: 9;
       cursor: pointer;
+      font-size: 24px;
+    }
+    #header button:first-child{
+      display: block;
+    }
+    #header button:nth-child(2){
+      display:none;
+      left: 37px;
+    }
+    #header .open button:first-child{
+      display: none;
+    }
+    #header .open button:nth-child(2){
+      display: block;
     }
     @media screen and (max-width:480px){
       #header .nav{

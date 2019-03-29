@@ -4,13 +4,13 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
+          <img src="https://placem.at/things?w=1350&h=660&random=6" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1200&h=500&random=9" alt="">
+          <img src="https://placem.at/things?w=1350&h=660&random=9" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1200&h=500&random=12" alt="">
+          <img src="https://placem.at/things?w=1350&h=660&random=12" alt="">
         </div>
       </div>
       <!-- Add Pagination -->
@@ -25,7 +25,7 @@
       </ul>
     </div>
     <div class="default-about">
-      <img src="https://placem.at/things?w=800&h=500&random=12" alt="">
+      <img src="https://placem.at/things?w=920&h=550&random=12" alt="">
       <div class="default-about-content">
         <h2>et blandit erat nisl at metus</h2>
         <h3>ullamcorper velit, ut posuere leo arcu eget lorem.</h3>
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import Swiper from './assets/js/swiper.min.js';
+import Swiper from './../assets/js/swiper.min.js';
 export default {
   name: 'Swiper',
   data() {
@@ -54,7 +54,7 @@ export default {
       spaceBetween: 100,
       centeredSlides: true,
       autoplay: {
-        delay: 10000,
+        delay: 6000,
         disableOnInteraction: false,
       },
       pagination: {
@@ -67,9 +67,9 @@ export default {
 </script>
 
 <style scoped>
-@import './assets/css/swiper.min.css';
+@import './../assets/css/swiper.min.css';
 #default{
-  margin-top: 186px;
+  margin-top: 176px;
 }
 .swiper-container{
   margin-bottom: 35px;
@@ -94,20 +94,22 @@ export default {
   width: 74%;
 }
 .default-new-list ul li{
-  font-size: 16px;
-  margin-bottom: 9px;
+  font-size: 17px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
 }
 .default-new-list ul li a{
-
+  color: #404040;
 }
 .default-new-list ul li a:hover{
-  
+  color: #eb5502;
 }
 .default-about{
   margin-bottom: 90px;
 }
 .default-about img{
-  margin-left: -9vw;
+  margin-left: -15vw;
+  width: 70%;
 }
 .default-about .default-about-content{
   width: 47%;
@@ -115,6 +117,7 @@ export default {
   text-align: justify;
 }
 .default-about h2{
+  font-family: 'pacifico';
   font-size: 16px;
   color: #314ada;
 }
@@ -128,5 +131,70 @@ export default {
   color: #7a7a7a;
   font-size: 18px;
 }
-
+@media screen and (max-width:1499px){
+  .default-about .default-about-content{
+    width: 42%;
+  }
+}
+@media screen and (max-width:1079px){
+  .news-title{
+    margin: 0 20px;
+  }
+  .default-new-list ul{
+    width: 85%;
+  }
+}
+@media screen and (max-width:949px){
+  .default-new-list{
+    padding: 0px 0;
+    margin-bottom: 30px;
+  }
+  .news-title{
+    margin: 0;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .default-new-list ul{
+    width: 100%;
+  }
+  .default-new-list ul li{
+    margin-bottom: 6px;
+  }
+  .default-about img{
+    width: 100%;
+    margin-left: -8vw;
+    margin-bottom: 10px;
+  }
+  .default-about .default-about-content{
+    width: 100%;
+  }
+}
+@media screen and (max-width:767px){
+  #default{
+    margin-top: 122px;
+  }
+  .swiper-container{
+    margin-bottom: 10px;
+  }
+  .default-new-list ul li{
+    margin-bottom: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (max-width:480px){
+  .news-title{
+    font-size: 25px;
+  }
+  .default-new-list ul{
+    text-align: justify;
+  }
+  .default-new-list ul li{
+    font-size: 15px;
+  }
+  .default-about h3{
+    font-size: 26px;
+    text-align: left;
+  }
+}
 </style>

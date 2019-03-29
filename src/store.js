@@ -3,7 +3,7 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-const MENU_URL = './src/menuData.json';
+const MENU_URL = './src/api/menuData.json';
 
 const store = new Vuex.Store({
   state:{

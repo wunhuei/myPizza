@@ -14,4 +14,12 @@
   #footer p{
     color: #444;
   }
+  @media screen and (max-width:480px){
+    #footer{
+      right: 26px;
+    }
+    #footer p{
+      font-size: 14px;
+    }
+  }
 </style>

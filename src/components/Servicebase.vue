@@ -1,5 +1,5 @@
 <template>
-  <div id="servicebase">
+  <div id="servicebase" class="innerContainer">
     <div class="inner-banner">
       <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
       <div class="inner-title">
@@ -9,10 +9,10 @@
     </div>
     <div class="container">
       <div class="service-nav">
-        <a href="#" @click="linkMenu" class="number0">number</a>
-        <a href="#" @click="linkMenu" class="number1">number</a>
-        <a href="#" @click="linkMenu" class="number2">number</a>
-        <a href="#" @click="linkMenu" class="number3">number</a>
+        <a href="#" @click="linkMenu" class="number0">Branch1</a>
+        <a href="#" @click="linkMenu" class="number1">Branch2</a>
+        <a href="#" @click="linkMenu" class="number2">Branch3</a>
+        <a href="#" @click="linkMenu" class="number3">Branch4</a>
       </div>
       <div class="service-section">
         <div class="service-list" v-for="(serviceitem,index) in service" :value="index" :key="serviceitem.storeNamestoreName" :id="'number'+index">
@@ -38,14 +38,13 @@
 
 <script>
 export default {
-  el:'.service-section',
   data() {
     return {
       service: [],
     };
   },
   mounted(){
-    fetch('./src/serviceData.json')
+    fetch('./src/api/serviceData.json')
     .then(res=>res.json())
     .then(service=>this.service=service);
   },
@@ -65,53 +64,36 @@ export default {
 }
 </script>
 
-
-
 <style scooed>
   #servicebase{
-    margin-top: 180px;
     padding-bottom: 100px;
   }
-  .inner-banner{
-    position: relative;
-    height: 38vw;
-  }
-  .inner-banner img{
-    position: absolute;
-    width: 85%;
-    left: -11vw;
-  }
-  .inner-banner .inner-title{
-    position: absolute;
-    left: 55vw;
-    top: 20vw;
-  }
-  .inner-title h1{
-    font-size: 20px;
-    color: #fff;
-  }
-  .inner-title h2{
-    font-size: 32px;
-    color: #2c2c2c;
-  }
   #servicebase .service-nav{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     border-bottom: 1px solid #e1e1e1;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
   #servicebase .service-nav a{
     font-size: 18px;
+    border: 2px solid #343535;
     background: #353535;
     color: #ffffff;
     padding: 5px 30px;
     letter-spacing: 1px;
     margin-right: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all 0.3s;
   }
-
+  #servicebase .service-nav a:hover{
+    border: 2px solid #1aad63;
+    background: #ffffff;
+    color: #1aad63;
+  }
   .service-section .service-list{
     display: block;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #cbcbcb;
   }
   .service-list .service-text{
@@ -123,32 +105,51 @@ export default {
     margin-bottom: -15px;
   }
   .service-list h3{
-    font-size: 37px;
+    font-size: 35px;
+    margin-left: -3px;
+    color: #1a3b8b;
+    margin-bottom: 6px;
   }
- 
   .service-list ul{
     font-size: 17px;
-    margin-left: 20px;
   }
   .service-list ul li{
-    margin-bottom:15px;
+    margin-bottom: 15px;
     position: relative;
-    line-height: 1.2;
-  }
-  .service-list ul li::before{
-    content: "";
-    display: inline-block;
-    width: 4px;
-    height: 4px;
-    border: 3px solid #1aad63;
-    border-radius: 50%;
-    position:absolute;
-    left: -18px;
-    top: 7px;
+    font-size: 21px;
+    line-height: 1;
   }
   .service-list ul li span{
     display: block;
     font-weight: bold;
     color: #1aad63;
+    font-size: 16px;
+  }
+  .service-list .service-text svg{
+    font-size: 30px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+  }
+  @media screen and (max-width:992px){
+    .container{
+      padding: 0 15px;
+    }
+    #servicebase .service-nav{
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+    }
+    .service-list .service-text{
+      width: 100%;
+    }
+    .service-list img{
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    #servicebase .service-nav a{
+      font-size: 15px;
+      padding: 3px 10px;
+      letter-spacing: 1px;
+    }
   }
 </style>

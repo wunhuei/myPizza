@@ -3,11 +3,11 @@ import VueRouter from 'vue-router';
 
 
 import App from './App.vue'
-import Default from './default.vue'
-import About from './About.vue'
-import Menu from './Menu.vue'
-import News from './News.vue'
-import ServiceBase from './Servicebase.vue'
+import Default from './components/default.vue'
+import About from './components/About.vue'
+import Menu from './components/Menu.vue'
+import News from './components/News.vue'
+import ServiceBase from './components/Servicebase.vue'
 
 Vue.use(VueRouter);
 

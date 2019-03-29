@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <div id="about" class="innerContainer">
     <div class="inner-banner">
       <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
       <div class="inner-title">
@@ -38,70 +38,45 @@ export default {
 </script>
 
 <style scooed>
-  #about{
-    margin-top: 180px;
-  }
-  .inner-banner{
-    position: relative;
-    height: 38vw;
-  }
-  .inner-banner img{
-    position: absolute;
-    width: 85%;
-    left: -11vw;
-  }
-  .inner-banner .inner-title{
-    position: absolute;
-    left: 55vw;
-    top: 20vw;
-  }
-  .inner-title h1{
-    font-family: 'pacifico';
-    font-weight: inherit;
-    font-size: 20px;
-    color: #fff;
-  }
-  .inner-title h2{
-    font-size: 32px;
-    color: #2c2c2c;
-  }
-  .about-content{
-
-  }
   .about-content h2{
-    font-size: 19px;
+    font-size: 24px;
     text-align: center;
   }
   .about-content h3{
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .about-content h4{
-
+    font-size: 22px;
+    letter-spacing: -0.1px;
+    color: #db5e19;
   }
   .about-content h5{
-
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 17px;
   }
   .about-content p{
-
+    font-size: 21px;
+    line-height: 1.2;
   }
   .about-box{
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
   .about-box img{
     width: 100%;
   }
   .about-box.twoPic{
     position: relative;
-    margin-bottom: 90px;
+    margin-bottom: 130px;
   }
   .about-box.twoPic img:nth-child(1){
     width: 55vw;
   }
   .about-box.twoPic img:nth-child(2){
-    width: 42vw;
+    width: 39vw;
     position: absolute;
     right: 0;
     bottom: -44px;
@@ -109,9 +84,58 @@ export default {
   .about-content .rightpic{
     width: 69.4%;
     display: inline-block;
+    margin-bottom: -15px;
   }
   .about-content .text-left{
     width: 30%;
     display: inline-block;
+  }
+  @media screen and (max-width:767px){
+    .about-content h2{
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .about-content h3{
+      line-height: 1.2;
+    }
+    .about-box.twoPic{
+      margin-bottom: 30px;
+    }
+    .about-box.twoPic img:nth-child(1){
+      width: 100%;
+    }
+    .about-box.twoPic img:nth-child(2){
+      width: 100%;
+      position: relative;
+      right: auto;
+      bottom: auto;
+    }
+    .about-content .text-left{
+      width: 100%;
+    }
+    .about-content p{
+      margin-bottom: 10px;
+    }
+    .about-content .rightpic{
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    .about-box{
+      margin-bottom: 20px;
+    }
+    .about-box:last-child{
+      margin-bottom: 60px;
+    }
+  }
+  @media screen and (max-width:480px){
+    .container{
+      padding: 0 15px;
+    }
+    .about-content h3{
+      margin-bottom: 30px;
+    }
+    .about-box {
+      margin-bottom: 10px;
+    }
   }
 </style>
