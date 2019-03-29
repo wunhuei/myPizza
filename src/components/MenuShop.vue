@@ -28,7 +28,7 @@
             總價：<span class="price">${{price}}</span>元
           </p>
         </div>
-        <input type="button" value="order" onclick="location.href='/myPizza/index.html#/menu'"> 
+        <input type="button" value="order" onclick="location.href='/myPizza/index.html'"> 
         <button id="close">Close</button>
       </form>
     </div>
