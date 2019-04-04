@@ -6,7 +6,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_01.jpg",
     "money": 100,
     "num": 1
   },
@@ -17,7 +17,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_02.jpg",
     "money": 100,
     "num": 1
   },
@@ -28,7 +28,7 @@
     "subname": "blandit erat nisl metus",
     "Ingredients": "magna/blandit/blandit/arcu",
     "subIngredients": "magna/blandit/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_03.jpg",
     "money": 100,
     "num": 1
   },
@@ -39,7 +39,7 @@
     "subname": "erat nisl at metus",
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_01.jpg",
     "money": 100,
     "num": 1
   },
@@ -50,7 +50,7 @@
     "subname": "et blandit at metus",
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/drink_01.jpg",
     "money": 100,
     "num": 1
   },
@@ -61,7 +61,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_02.jpg",
     "money": 100,
     "num": 1
   },
@@ -72,7 +72,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/drink_03.jpg",
     "money": 110,
     "num": 1
   },
@@ -83,7 +83,7 @@
     "subname": "blandit erat nisl metus",
     "Ingredients": "magna/blandit",
     "subIngredients": "magna/blandit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_07.jpg",
     "money": 100,
     "num": 1
   },
@@ -94,7 +94,7 @@
     "subname": "erat nisl at metus",
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_06.jpg",
     "money": 100,
     "num": 1
   },
@@ -105,8 +105,8 @@
     "subname": "et blandit at metus",
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 120,
+    "img": "./src/assets/images/dessert_04.jpg",
+    "money": 70,
     "num": 1
   },
   {
@@ -116,7 +116,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_03.jpg",
     "money": 100,
     "num": 1
   },
@@ -127,8 +127,8 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 100,
+    "img": "./src/assets/images/dessert_01.jpg",
+    "money": 80,
     "num": 1
   },
   {
@@ -138,7 +138,7 @@
     "subname": "blandit erat nisl metus",
     "Ingredients": "blandit/arcu",
     "subIngredients": "blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_01.jpg",
     "money": 110,
     "num": 1
   },
@@ -149,8 +149,8 @@
     "subname": "erat nisl at metus",
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 110,
+    "img": "./src/assets/images/dessert_02.jpg",
+    "money": 95,
     "num": 1
   },
   {
@@ -160,7 +160,7 @@
     "subname": "et blandit at metus",
     "Ingredients": "bland/magna/blandit/arcu",
     "subIngredients": "bland/magna/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_03.jpg",
     "money": 100,
     "num": 1
   },
@@ -171,8 +171,8 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "velit/blandit/magna",
     "subIngredients": "velit/blandit/magna",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
-    "money": 120,
+    "img": "./src/assets/images/dessert_03.jpg",
+    "money": 50,
     "num": 1
   },
   {
@@ -182,7 +182,7 @@
     "subname": "et blandit erat nisl at metus",
     "Ingredients": "arcu/blandi/tvelit",
     "subIngredients": "arcu/blandit/velit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_05.jpg",
     "money": 150,
     "num": 1
   },
@@ -193,7 +193,7 @@
     "subname": "blandit erat nisl metus",
     "Ingredients": "magna/blandit/blandit/blandit/arcu",
     "subIngredients": "magna/blandit/blandit/blandit/arcu",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_06.jpg",
     "money": 130,
     "num": 1
   },
@@ -204,7 +204,18 @@
     "subname": "erat nisl at metus",
     "Ingredients": "bland/velit/arcu/blandit",
     "subIngredients": "bland/velit/arcu/blandit",
-    "img": "https://placem.at/things?w=500&h=500&random=6",
+    "img": "./src/assets/images/pizza_07.jpg",
+    "money": 100,
+    "num": 1
+  },
+  {
+    "id":20,
+    "productCategory": "number3",
+    "name": "ut posuere leo",
+    "subname": "erat nisl at metus",
+    "Ingredients": "bland/velit/arcu/blandit",
+    "subIngredients": "bland/velit/arcu/blandit",
+    "img": "./src/assets/images/drink_02.jpg",
     "money": 100,
     "num": 1
   }

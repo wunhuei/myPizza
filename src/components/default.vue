@@ -4,13 +4,13 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1350&h=660&random=6" alt="">
+          <img src="../assets/images/banner_01.jpg" alt="bn">
         </div>
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1350&h=660&random=9" alt="">
+          <img src="../assets/images/banner_02.jpg" alt="bn">
         </div>
         <div class="swiper-slide">
-          <img src="https://placem.at/things?w=1350&h=660&random=12" alt="">
+          <img src="../assets/images/banner_03.jpg" alt="bn">
         </div>
       </div>
       <!-- Add Pagination -->
@@ -25,7 +25,7 @@
       </ul>
     </div>
     <div class="default-about">
-      <img src="https://placem.at/things?w=920&h=550&random=12" alt="">
+      <img src="../assets/images/default-img.jpg" alt="">
       <div class="default-about-content">
         <h2>et blandit erat nisl at metus</h2>
         <h3>ullamcorper velit, ut posuere leo arcu eget lorem.</h3>

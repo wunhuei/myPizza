@@ -1,7 +1,7 @@
 <template>
   <div id="servicebase" class="innerContainer">
     <div class="inner-banner">
-      <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
+      <img src="../assets/images/inner_bn_02.jpg" alt="bn">
       <div class="inner-title">
         <h1>servicebase</h1>
         <h2>leo arcu eget lorem at metus auctor</h2>
@@ -53,7 +53,7 @@ export default {
         e.preventDefault();
         let nav_choise = $(e.target).attr('class');
         console.log(nav_choise);
-        $('html').animate(
+        $('html, body').animate(
           {
             scrollTop:$('#'+nav_choise).offset().top-120
           }, 500

@@ -11,6 +11,8 @@ import ServiceBase from './components/Servicebase.vue'
 
 Vue.use(VueRouter);
 
+
+
 export default new VueRouter({
   routes: [
     {

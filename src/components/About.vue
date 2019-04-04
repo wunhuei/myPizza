@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="innerContainer">
     <div class="inner-banner">
-      <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
+      <img src="../assets/images/inner_bn_01.jpg" alt="bn">
       <div class="inner-title">
         <h1>about pizza</h1>
         <h2>leo arcu eget lorem at metus auctor</h2>
@@ -12,8 +12,8 @@
         <h2>et blandit erat nisl at metus</h2>
         <h3>et blandit erat nisl ullamcorper velit, velit, ut posuere leo arcu eget lorem at metus auctor<br> eleifendut posuere leo arcu eget lorem at metus auctor eleifend</h3>
         <div class="about-box twoPic">
-          <img src="https://placem.at/things?w=800&h=500&random=6" alt="">
-          <img src="https://placem.at/things?w=800&h=500&random=6" alt="">
+          <img src="../assets/images/about_01.jpg" alt="bn">
+          <img src="../assets/images/about_02.jpg" alt="bn">
         </div>
         <div class="about-box">
           <div class="text-left">
@@ -21,10 +21,10 @@
           <h5>end, metus magna ullamcorper velit, ut posuere</h5>
           <p>et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend</p>
           </div>
-          <img src="https://placem.at/things?w=800&h=400&random=6" alt="" class="rightpic">
+          <img src="../assets/images/about_03.jpg" alt="" class="rightpic">
         </div>
         <div class="about-box">
-          <img src="https://placem.at/things?w=1400&h=400&random=6" alt="">
+          <img src="../assets/images/about_04.jpg" alt="bn">
         </div>
       </div>
     </div>

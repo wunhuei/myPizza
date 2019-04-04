@@ -1,7 +1,7 @@
 <template>
   <div id="news" class="innerContainer">
     <div class="inner-banner">
-      <img src="https://placem.at/things?w=1200&h=500&random=6" alt="">
+      <img src="../assets/images/inner_bn_01.jpg" alt="bn">
       <div class="inner-title">
         <h1>pizza news</h1>
         <h2>leo arcu eget lorem at metus auctor</h2>

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="menu-nav">
-      <a href="#/menu" @click="linkMenu">Basictomato</a>
-      <a href="#/menu" @click="linkMenu">Classicflavor</a>
-      <a href="#/menu" @click="linkMenu">Appetizerdessert</a>
-      <a href="#/menu" @click="linkMenu">Drink</a>
+      <a href="#/menu">Basictomato</a>
+      <a href="#/menu">Classicflavor</a>
+      <a href="#/menu">Appetizerdessert</a>
+      <a href="#/menu">Drink</a>
     </div>
     <div class="menu-section">
       <div class="menu-list Basictomato">
@@ -68,17 +68,22 @@ export default {
         return item.productCategory === "number4";
       });
     },
-    linkMenu: function(e){
+  },
+  mounted(){
+    this.fetchMenu();
+    $(function(){
+      $('.menu-nav a').click(function(e){
+        e.preventDefault();
+        e.stopPropagation();
         let nav_choise = $(e.target).text();
-        $('html').animate(
+        $('html, body').animate(
           {
             scrollTop:$('.'+nav_choise).offset().top -120
           }, 500
         );
-    },
-  },
-  mounted(){
-    this.fetchMenu();
+      })
+    });
+    
   },
 }
 </script>
@@ -109,7 +114,6 @@ export default {
   .menu-list{
     border-bottom:1px solid #eee;
     margin-bottom:80px;
-    border: 1px solid #d2d1d1;
   }
   .menu-list ul li{
     display: inline-block;

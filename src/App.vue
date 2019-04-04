@@ -21,9 +21,11 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
 }
 </script>
+
+  
 
 <style>
   @charset "UTF-8";
@@ -118,6 +120,16 @@ export default {
     font-size: 32px;
     color: #2c2c2c;
     line-height: 1;
+  }
+  loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background: #151733;
+    top: 0;
+    left: 0;
+    z-index: 99;
   }
   @media screen and (min-width:1410px){
     .green-border, .red-border{

@@ -4,27 +4,27 @@
     "time": "12:00~23:00",
     "tel": "02-2344-5678",
     "add": "leo arcu eget lorem at metus lorem at metus auctorleo",
-    "img": "https://placem.at/things?w=1200&h=500&random=5"
+    "img": "./src/assets/images/add_01.jpg"
   },
   {
     "storeName": "Branch2",
     "time": "12:00~22:00",
     "tel": "02-2353-5741",
     "add": "ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velitr",
-    "img": "https://placem.at/things?w=1200&h=500&random=6"
+    "img": "./src/assets/images/add_02.jpg"
   },
   {
     "storeName": "Branch3",
     "time": "12:00~22:30",
     "tel": "02-6745-2365",
     "add": "ut posuere leo arcu eget lorem at metus auctor eleifend",
-    "img": "https://placem.at/things?w=1200&h=500&random=9"
+    "img": "./src/assets/images/add_03.jpg"
   },
   {
     "storeName": "Branch4",
     "time": "12:00~22:00",
     "tel": "02-6451-5977",
     "add": "metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit ",
-    "img": "https://placem.at/things?w=1200&h=500&random=3"
+    "img": "./src/assets/images/add_04.jpg"
   }
 ]
