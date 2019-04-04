@@ -28,7 +28,7 @@
             總價：<span class="price">${{price}}</span>元
           </p>
         </div>
-        <input type="button" value="order" onclick="location.href='/'"> 
+        <input type="button" value="order" onclick="location.href='#/'"> 
         <button id="close">Close</button>
       </form>
     </div>
